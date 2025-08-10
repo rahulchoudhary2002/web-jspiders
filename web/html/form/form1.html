@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body><h1>Form</h1>
+    <form action="">
+        <fieldset>
+            <legend>info</legend>
+             <label for="number">number:</label>
+        <input type="text" id="number">
+        <br><br>
+        <label for="pass">password</label>
+        <input type="password" id="pass" name="pass">
+        <br><br>
+        <label for="age">age</label>
+        <input type="number" id="age" name="age">
+
+        <br><br>
+        <label for="email">email</label>
+        <input type="email" id="email" name="email">
+        <br><br>
+        <label for="">gender</label>
+        <input type="radio" name="gender" value="male">male
+        <input type="radio" name="gender" value="feamle">female
+        <input type="radio" name="gender" value="others">others
+</fieldset>
+
+<fieldset>
+    <legend>other info</legend>
+    <label for="">skills</label>
+        <input type="checkbox" name="skills1" value="html">html
+        <input type="checkbox" name="skills2" value="css">css
+        <input type="checkbox" name="skills3" value="js">js
+        <input type="checkbox" name="skills4" value="react">react
+
+        <br><br>
+        <label for="">vehicle</label>
+        <select name="vehicle" id="">
+            <optgroup label="car">
+       <option value="bmw">bmw</option>
+        <option value="maruti">maruti</option>
+        <option value="tata">tata</option>
+            </optgroup>
+            <optgroup label="bike">
+        <option value="gt650">gt650</option>
+        <option value="royal">royal</option>
+         <option value="java">java</option>
+            </optgroup>
+        </select><br><br><br>
+        <label for="">select a pet</label>
+       <input type="text" list="pet" name="pet">
+       <datalist id="pet">
+        <option value="cat">cat</option>
+        <option value="dog">dog</option>
+        <option value="fish">fish</option>
+        <option value="rabbit">rabbit</option>
+        <option value="birds">birds</option>
+       </datalist>
+       </fieldset>
+       
+        <br><br>
+        <fieldset>
+<legend>feedback</legend>
+<label for=""></label>
+<textarea name="" id=""></textarea>
+
+        </fieldset>
+
+        <button type="submit">submit</button>
+        <button type="reset"> reset</button>
+        <button type="button"> </button>
+        <input type="button" value="this is a button">we do not use input button
+        <br><br><br><br>
+
+
+
+    </form>
+    
+</body>
+</html>

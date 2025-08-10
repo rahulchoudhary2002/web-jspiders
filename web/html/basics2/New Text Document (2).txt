@@ -1,0 +1,24 @@
+<! Doctype html>
+<html>
+   <head>
+      <title>
+ 
+		personal
+      </title>
+</head>
+<body>
+<center><h1><u>personal information<u></h1><br>
+<p>name:</><mark>rahul</mark><br>
+age: <stike>20001</strike>24<br>
+<b><u>education:</u></b><mark>12<sup>th</sup>mca</mark><br>
+address:<u> hari marg Jaipur rajasthan</u>
+</center>
+hello good
+
+
+</body>
+
+
+
+
+</html>
