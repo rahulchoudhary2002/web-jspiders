@@ -17,22 +17,39 @@
             accent-color: rgb(48, 151, 35);
 
         }
-         #demo:checked+div{
+         #blue:checked+div{
+            background-color: rgb(38, 0, 255);
+            height: 100px;
+            width: 100px;
+        }
+           #demo:checked+div{
             background-color: aqua;
             height: 100px;
             width: 100px;
+        }
+           #red:checked+div{
+            background-color: rgb(155, 36, 36);
+            height: 100px;
+            width: 100px;
+        }
+        #blue:checked~div{
+            background-color: blue;
         }
 </style>
 
 </head>
 <body>
+
     <input type="radio" id="blue" name="color">blue
     <input type="radio" id ="black" name="color">black
-    <input type="radio" id ="orange" name="color">green
+    <input type="radio" id ="red" name="color">red
 
      <input type="radio" name="color" id="demo" >lightblue
 
 
+  <div ></div>
+  <div></div>
+  <div></div>
   <div></div>
 </body>
 </html>

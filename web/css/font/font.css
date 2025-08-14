@@ -1,0 +1,27 @@
+/* *{
+    font-family: "Bebas Neue", sans-serif;
+
+}
+#para1{
+    font-size:16px;
+    font-weight: 500;
+    font-family: "Noto Sans JP", sans-serif;
+
+}
+#para2{
+    font-style: italic;
+
+
+}
+#p1{
+
+} */
+
+#para1{
+    font-variant: small-caps;
+    
+}
+#para2{
+    font-variant: small-caps;
+}
+

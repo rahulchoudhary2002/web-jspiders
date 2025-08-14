@@ -1,0 +1,38 @@
+/* div{
+    border:solid;
+    height: 100vh;
+    background-image: url();
+    background-repeat: no repeat ;
+    background-position:center;
+    background-size:600px 400opx;
+    background-attachment:fixed;
+
+
+
+}
+
+div:nth-child(2){
+    background-image:url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpaperaccess.com%2Ffull%2F686147.jpg&f=1&nofb=1&ipt=22d37ce8c0f3c6a3d497ccfb1abacc805c1f3fd9f80faccbcceb63911ed6922a) ;
+}
+div:nth-child(3){
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Ffiles.all-free-download.com%2Fdownloadfiles%2Fwallpapers%2F1920_1080%2Fpeaceful_lake_wallpaper_landscape_nature_1208.jpg&f=1&nofb=1&ipt=904627fcefae8ed52f809251bab8187d7e2a7bc10354a9ba391aaaf2cd808848);
+}
+div:nth-child(4){
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmy.alfred.edu%2Fzoom%2F_images%2Ffoster-lake.jpg&f=1&nofb=1&ipt=42044b719b70991806fdab30d519a1377bb364aee60f8af523a3ad1c138cda07);
+} */
+
+div{
+            height: 100vh;
+        background-image: url("https://www.decoratingcentreonline.co.uk/cdn/shop/files/mur123m.webp_2_2.jpg?v=1710250775");
+        background-size: 600px 400px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        
+        }
+        div:nth-child(2){
+            background-image: url(https://is.zobj.net/image-server/v1/images?r=rH4xzo01bC8AmFxsRZCSB7I_vL5DGhGW7xSzF5C4KG-UVKK-bGpCZ-45eks_hYTaDTl-dmc2tPK7K1m8pQP5SkzasafMByHIjAH5s56tPwLxDL1i8yaPRpZBE1EBkE7ogq1bEYL-mx7_mAdA9yc5o7igHg_AvwkI5XeoJyXOhF-0QF5B97AcoMkQWdz1r9iqxjoshWRF9ji3hflobu5SyVrlbz8KcUE60nKC71YybbYRuy-gwc43vSjU8EA);
+        }
+        div:nth-child(3){
+            background-image: url("https://rukminim2.flixcart.com/image/704/844/kxdl3m80/wall-decoration/f/9/u/nature-forest-tree-landscape-wallpaper-paper-poster-1-vp-201221-original-imag9uh6ztf2fhhx.jpeg?q=90&crop=false");
+        }

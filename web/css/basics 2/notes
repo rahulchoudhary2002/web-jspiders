@@ -42,7 +42,7 @@ text properties
                     -line:(underline,overline,underline,);
                     -color:(red);
                     -style:(solid,wavy,dashed,dotted,double,);
-         ex=> text-decoration:underline, wavy,purple;  
+         ex=> text-decoration:underline, wavy,purple;
 4.text-indent:100px  ;
 5. wrap =>text-wrap:none;
 6. word-transfer
@@ -50,3 +50,36 @@ text properties
 8. letter-spacing==30px
 9. line-height==60px
 10. text-shadow: x-axis y-axis z-axis;
+
+==============================================================
+font properties
+        =>font-weight
+        =>font-style
+        =>font-size
+        =>font-varient
+        =>font-family
+===============================================================
+background properties
+                =>background-color:
+                =>background-image:url('')
+                =>background-repeat:repeat x, repeat y norepeat;
+                =>background-position:
+                =>background-size:auto,contain,cover;
+                =>background-attacement:fixed;
+
+
+
+                example
+                background-positon-x:left;
+                background-positon-x:center;
+
+
+
+                div{
+                        height: 1200px;
+                        width: 12px;
+                        border:solid;
+                        background-image:url;
+                        background-repeat:none;
+                }
+==========================================================================

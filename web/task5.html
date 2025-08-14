@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>CSS-Only Text Editor</title>
+<style>
+
+  .preview { padding: 20px 22px 26px; }
+  .preview h2 { margin: 0 0 8px; font-size: 28px; }
+  .preview p { margin: 0; font-size: 16px; }
+
+  /* -------------------- CASE -------------------- */
+  .editor:has(#case-normal:checked)  .preview { text-transform: none; }
+  .editor:has(#case-upper:checked)   .preview { text-transform: uppercase; }
+  .editor:has(#case-lower:checked)   .preview { text-transform: lowercase; }
+  .editor:has(#case-cap:checked)     .preview { text-transform: capitalize; }
+
+  /* -------------------- SHADOW -------------------- */
+  .editor:has(#shadow-none:checked)  .preview { text-shadow: none; }
+  .editor:has(#shadow-s:checked)     .preview { text-shadow: 2px 2px 3px rgba(0,0,0,.35); }
+  .editor:has(#shadow-m:checked)     .preview { text-shadow: 4px 4px 6px rgba(0,0,0,.35); }
+  .editor:has(#shadow-l:checked)     .preview { text-shadow: 6px 6px 10px rgba(0,0,0,.35); }
+
+  /* -------------------- DECORATION LINE -------------------- */
+  .editor:has(#deco-none:checked)    .preview { text-decoration-line: none; }
+  .editor:has(#deco-underline:checked) .preview { text-decoration-line: underline; }
+  .editor:has(#deco-through:checked) .preview { text-decoration-line: line-through; }
+
+  /* -------------------- DECORATION STYLE -------------------- */
+  .editor:has(#style-solid:checked)  .preview { text-decoration-style: solid; }
+  .editor:has(#style-wavy:checked)   .preview { text-decoration-style: wavy; }
+  .editor:has(#style-dashed:checked) .preview { text-decoration-style: dashed; }
+  .editor:has(#style-double:checked) .preview { text-decoration-style: double; }
+
+  /* -------------------- ALIGN -------------------- */
+  .editor:has(#align-left:checked)   .preview { text-align: left; }
+  .editor:has(#align-center:checked) .preview { text-align: center; }
+  .editor:has(#align-right:checked)  .preview { text-align: right; }
+  .editor:has(#align-justify:checked) .preview { text-align: justify; }
+
+  /* -------------------- COLOR -------------------- */
+  .editor:has(#color-default:checked) .preview { color: var(--ink); }
+  .editor:has(#color-red:checked)     .preview { color: red; }
+  .editor:has(#color-green:checked)   .preview { color: green; }
+  .editor:has(#color-blue:checked)    .preview { color: blue; }
+</style>
+</head>
+<body>
+
+<div class="editor">
+  <form class="controls">
+    <fieldset>
+      <legend>Case</legend>
+      <label><input type="radio" name="case" id="case-normal" checked> Normal</label>
+      <label><input type="radio" name="case" id="case-upper"> Uppercase</label>
+      <label><input type="radio" name="case" id="case-lower"> Lowercase</label>
+      <label><input type="radio" name="case" id="case-cap"> Capitalize</label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Shadow</legend>
+      <label><input type="radio" name="shadow" id="shadow-none" checked> None</label>
+      <label><input type="radio" name="shadow" id="shadow-s"> X2 Y2 Blur3</label>
+      <label><input type="radio" name="shadow" id="shadow-m"> X4 Y4 Blur6</label>
+      <label><input type="radio" name="shadow" id="shadow-l"> X6 Y6 Blur10</label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Decoration</legend>
+      <label><input type="radio" name="deco" id="deco-none" checked> None</label>
+      <label><input type="radio" name="deco" id="deco-underline"> Underline</label>
+      <label><input type="radio" name="deco" id="deco-through"> Line-through</label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Style</legend>
+      <label><input type="radio" name="style" id="style-solid" checked> Solid</label>
+      <label><input type="radio" name="style" id="style-wavy"> Wavy</label>
+      <label><input type="radio" name="style" id="style-dashed"> Dashed</label>
+      <label><input type="radio" name="style" id="style-double"> Double</label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Align</legend>
+      <label><input type="radio" name="align" id="align-left" checked> Left</label>
+      <label><input type="radio" name="align" id="align-center"> Center</label>
+      <label><input type="radio" name="align" id="align-right"> Right</label>
+      <label><input type="radio" name="align" id="align-justify"> Justify</label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Color</legend>
+      <label><input type="radio" name="color" id="color-default" checked> Default</label>
+      <label><input type="radio" name="color" id="color-red"> Red</label>
+      <label><input type="radio" name="color" id="color-green"> Green</label>
+      <label><input type="radio" name="color" id="color-blue"> Blue</label>
+    </fieldset>
+  </form>
+
+  <div class="bar"></div>
+
+  <div class="preview">
+    <h2>Text Editor</h2>
+    <p>This is a simple text editor example.</p>
+  </div>
+</div>
+
+</body>
+</html>
