@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #demo:checked{
+            accent-color: red;
+    
+        }
+        #demo:checked+div{
+            background-color: aqua;
+            height: 100px;
+            width: 100px;
+        }
+
+        img{
+            height: 0px;
+        }
+        #onBtn:checked~#onBulb{
+            height:200px
+        }
+        #offBtn:checked~#offBulb{
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+  demo  <input type="checkbox" name="" id="demo">
+
+  <div></div>
+
+
+
+
+  <input type="radio" id="onBtn" name="bulb">ON
+  <input type="radio" id="offBtn" name="bulb">off
+
+  <br>
+
+  <img src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fpluspng.com%2Fimg-png%2Flight-bulb-png-light-bulb-png-file-png-image-1200.png&f=1&nofb=1&ipt=2b0a58666261a876b129ada6a5196057992ed9156a473becbadc3681b3f704f5" alt="" id="onBulb" height="100px" >
+  <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fc8.alamy.com%2Fcomp%2FE6DG4D%2Fclassic-light-bulb-isolated-E6DG4D.jpg&f=1&nofb=1&ipt=067c2039c500afd474cca92c6bbd5d303a4875f7def8e19926ec9897c60b70fd" alt="" id="offBulb" height="100px">
+</body>
+</html>

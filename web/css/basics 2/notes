@@ -1,0 +1,52 @@
+selectores
+========================================
+1.simple=>
+tagname
+class(.)
+id(#)
+grouping
+universal
+========================================
+2.comination
+descendent
+child(>)
+sibling-
+        adjsent(+)
+        general(~)
+=========================================
+3.pesudo class
+            first-child
+            last-child
+            nth child
+            howr
+            checked
+=========================================
+disabled=>
+link
+active
+visited
+these 3 are use in the url for check the web site 
+===================================================
+psudo elements  (::)
+placeholder=>for write background text
+selection
+before
+after
+firstline
+first letter
+=============================================================
+text properties
+1. color
+2. text-align
+3. text-decoration      none
+                    -line:(underline,overline,underline,);
+                    -color:(red);
+                    -style:(solid,wavy,dashed,dotted,double,);
+         ex=> text-decoration:underline, wavy,purple;  
+4.text-indent:100px  ;
+5. wrap =>text-wrap:none;
+6. word-transfer
+7. word-spacing===30px
+8. letter-spacing==30px
+9. line-height==60px
+10. text-shadow: x-axis y-axis z-axis;
