@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* section{
+            border: solid;
+            width: 250px;
+        }
+        div{
+            height: 100px;
+            border: solid black;
+            font-weight: 900;
+            font-size: 30px;
+            color: rgba(255 , 255 , 255 , 0);
+        }
+        div:hover{
+            color: white;
+        }
+        #first .one{
+            background-color: #8a2be2;
+        }
+        #first .two{
+            background-color: hsla(108, 100%, 26%, 0.795);
+        }
+        #first .three{
+            background-color: rgba(133, 18, 0, 0.795);
+        }
+        #second .one{
+            background-color: #fff;
+        }*/
+        .parent{
+            width: 300px;
+            border: solid;
+        }
+        .parent .card{
+            height: 100px;
+            border: solid black;
+        }
+        .card:hover+.card{
+            background-color: aquamarine;
+        }
+    </style> 
+</head>
+<body>
+    <section class="parent">
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+    </section>
+    <!-- <section id="first">
+        <div class="one">#8a2be2</div>
+        <div class="two">hsla(108, 100%, 26%, 0.795)</div>
+        <div class="three">rgba(133, 18, 0, 0.795)</div>
+    </section>
+    <section id="second">
+        <div class="one"></div>
+        <div class="two"></div>
+        <div class="three"></div>
+    </section> -->
+</body>
+</html>
