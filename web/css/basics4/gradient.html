@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+   <style>
+.box{
+    height : 300px;
+    width: 200px;
+    border: solid;
+    border-radius: 50%;
+   /* background-image: linear-gradient(red,blue,black,orange);
+    background-image: repeating-radial-gradient(blue,red,orange);
+    background-color: radial-gradient(circle,black,orange,blue);    
+    background-image: radial-gradient(circle,blue,orange,black);*/
+
+    background-image: conic-gradient(blue 0deg, blue 120deg, red 120deg ,red 240deg, yellow 240deg,yellow 360deg);
+}
+.box1{
+    height : 300px;
+    width: 200px;
+    border: solid;
+    border-radius: 50%;
+    background-image: conic-gradient(orange 0deg, orange 90deg,blue 90deg, blue 180deg, black 180deg, black 270deg, red 270deg, red 360deg);
+    
+
+}
+.box1:hover{
+    background-image:conic-gradient( blue 90deg, blue 180deg, black 180deg, black 270deg, red 270deg, red 360deg,orange 0deg , orange 90deg);
+    
+}
+
+
+   </style> 
+</head>
+<body>
+    <div class="box">
+    </div>
+    <div class="box1">
+    </div>
+</body>
+</html>
