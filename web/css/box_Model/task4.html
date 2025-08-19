@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Cards</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background-color: #1e2a32;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .container {
+      display: flex;
+      gap: 20px;
+    }
+
+    .card {
+      background: #2e3b44;
+      border-radius: 12px;
+      width: 250px;
+      text-align: center;
+      padding: 20px;
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0px 10px 20px rgba(0,0,0,0.3);
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 8px;
+      margin-bottom: 15px;
+    }
+
+    .card h3 {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+
+    .price {
+      color: #00ff99;
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      font-size: 14px;
+      margin-bottom: 15px;
+      color: #ccc;
+    }
+
+    .buttons {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+    }
+
+    .btn {
+      padding: 8px 15px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .btn-primary {
+      background: #00c78b;
+      color: #fff;
+      
+    }
+
+    .btn-primary:hover {
+      background: #00a073;
+    }
+
+    .btn-secondary {
+      background: #444;
+      color: #fff;
+    }
+
+    .btn-secondary:hover {
+      background: #666;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <!-- Card 1 -->
+    <div class="card">
+      <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.digitecgalaxus.ch%2FFiles%2F6%2F8%2F2%2F2%2F7%2F9%2F3%2F8%2FiPhone_14_Pro_Deep_Purple_PDP_Image_Position-4__WWEN.jpg&f=1&nofb=1&ipt=a995553e28d7f9a293d53c90096685ad62ab32850a3f7c1ceaa724f40818db00" alt="Mobile Phone">
+      <h3>MOBILE PHONE</h3>
+      <h4 class="price">$199.99</h4>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+      <div class="buttons">
+        <button class="btn btn-primary">Add to Cart</button>
+        <button class="btn btn-secondary">View Details</button>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="card">
+      <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.cnn.com%2Fapi%2Fv1%2Fimages%2Fstellar%2Fprod%2Fsurface-laptop-5-review-cnnu-1.jpg%3Fc%3D16x9%26q%3Dh_833%2Cw_1480%2Cc_fill&f=1&nofb=1&ipt=26ed7050b41c15b55d1ff1d54d00690c6ebbe201c19c04b0b601b2ed3708fc19" alt="Laptop">
+      <h3>LAPTOP</h3>
+      <h4 class="price">$599.99</h4>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+      <div class="buttons">
+        <button class="btn btn-primary">Add to Cart</button>
+        <button class="btn btn-secondary">View Details</button>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="card">
+      <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstore.storeimages.cdn-apple.com%2F4668%2Fas-images.apple.com%2Fis%2FMQTQ3%3Fwid%3D1144%26hei%3D1144%26fmt%3Djpeg%26qlt%3D90%26.v%3D1687660671363&f=1&nofb=1&ipt=6551e2163d924cadb18632137a2091c419a2260edc18939d12bb4446ed1eb35d" alt="Headphone">
+      <h3>HEADPHONE</h3>
+      <h4 class="price">$29.99</h4>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+<div class="buttons">
+        <button class="btn btn-primary">Add to Cart</button>
+        <button class="btn btn-secondary">View Details</button>
+      </div> 
+   
+    </div>
+
+  </div>
+</body>
+</html>
