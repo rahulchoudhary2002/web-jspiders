@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .gallery{
+            height: 500px;
+            width: 800px;
+            margin: 100px auto;
+            border: 2px solid black;
+            display: flex;
+        }
+        .photos{
+            height: 100%;
+           flex-grow: 1;
+           border: 2px solid black;
+           background-size: cover;
+           background-position: center;
+           transition: 0.7s ease all;
+
+        }
+        .photos:hover{
+           flex-grow: 30;
+
+        }
+        .photo1{
+            background-image: url('https://images.pexels.com/photos/3998365/pexels-photo-3998365.png');
+        }
+        .photo2{
+            background-image: url('https://images.pexels.com/photos/4863860/pexels-photo-4863860.jpeg');
+        }
+        .photo3{
+            background-image: url('https://images.pexels.com/photos/16527993/pexels-photo-16527993.jpeg');
+        }
+        .photo4{
+            background-image: url('https://images.pexels.com/photos/9701380/pexels-photo-9701380.jpeg');
+        }
+        .photo5{
+            background-image: url('https://images.pexels.com/photos/206359/pexels-photo-206359.jpeg');
+        }
+        .photo6{
+            background-image: url('https://images.pexels.com/photos/48207/sunset-sky-sun-cloud-48207.jpeg');
+        }
+        .photo7{
+            background-image: url('https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg');
+        }
+    </style>
+</head>
+<body>
+    <section class="gallery">
+        <div class="photos photo1"></div>
+        <div class="photos photo2"></div>
+        <div class="photos photo3"></div>
+        <div class="photos photo4"></div>
+        <div class="photos photo5"></div>
+        <div class="photos photo6"></div>
+        <div class="photos photo7"></div>
+    </section>
+</body>
+</html>

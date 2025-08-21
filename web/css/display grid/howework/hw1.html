@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* .body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    } */
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            /* border: solid; */
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            font-family: Arial, Helvetica, sans-serif;
+        
+
+        }
+        .container{
+            height: 520px;
+            width: 1000px;
+            border: 2px solid black;
+            display: grid;
+            grid-template-columns: 450px 240px auto;
+            grid-template-rows: 250px  auto;
+            /* grid-template-columns: auto auto auto auto;
+            grid-template-rows: auto auto auto; */
+            
+
+        }
+        .box1{
+            background-color:#F4D6C7;
+            grid-row-start: 1;
+            grid-row-end: 3;
+            grid-column-start: 1;
+            grid-column-end:2 ;
+
+        }
+
+         .box2{
+            background-color: #F8E6DD;
+            grid-area: 1/2/2/3;
+        }
+         .box3{
+            background-color: #F8E6DD;
+            grid-area: 1/3/2/4;
+        }
+         .box4{
+            background-color: #F8E6DD;
+            grid-area: 2/2/3/3;
+        }
+         .box5{
+            background-color: #F8E6DD;
+            grid-area: 2/3/3/4;
+        }
+    
+          .img{
+            height: 210px;
+            width:220px;
+            justify-items: center;
+            margin-top: 20px;
+            margin-left: 40px;
+          }
+
+          .h1{
+            color: #c44536;
+            margin: 20px ;
+            font-size: 40px;
+            margin-bottom: 0px;
+          }
+
+        .design{
+
+        font-family: "Brush Script MT";
+           margin: 10px ;
+           margin-left: 25px;
+           font-size: 50px;
+        }
+        .text{
+                font-size: 16px;
+                line-height: 2.0;
+                color: #333;
+                margin-bottom: 20px;
+                margin-left: 20px;
+                margin-right: 50px;
+
+
+        }
+     .btn {
+    margin-top: 40px;
+
+      display: inline-block;
+      padding: 12px 24px;
+      background: #333;
+      color: #fff;
+      text-decoration: none;
+      font-size: 14px;
+      border-radius: 4px;
+      transition: 0.3s;
+
+    }
+    .btn:hover {
+      background: #555;
+    }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+      <div class="box1">
+            
+                      <h1 class="h1">About Us</h1>
+                      <h1 class="design">Design Studio</h1>
+                      <p class="text">The minds of creative professionals are merged with the traditional skills of interior design to expose multidisciplinary solutions. Through collaboration, unconventional solutions arise to bring awareness and a renewed perspective of everyday spaces.</p>
+                     <a href="#" class="btn">LEARN MORE</a>
+          
+    </div>
+
+
+
+      <div class="box2"><img class="img img1" src="//images03.nicepage.com/c461c07a441a5d220e8feb1a/9b103116205b5663b7452386/3piececeramicdinnerwareset_580x.jpg"></div>
+      <div class="box3"> <img class="img img2" src="//images03.nicepage.com/c461c07a441a5d220e8feb1a/4c9c549b86fc576aaa9487ed/3cb5318ec6b7ce9e80dce95d37211b83muscat.jpg"></div>
+      <div class="box4"><img class="img img3" src="https://images03.nicepage.com/c461c07a441a5d220e8feb1a/1ec3c4308017580ab2423a1d/23.jpg"></div>
+       <div class="box5"><img class="img img4" src="//images03.nicepage.com/c461c07a441a5d220e8feb1a/b3692b20f2cc54bfb7754acd/vgfc.jpg" data-image-width="649" data-image-height="626"></div>
+
+    </div>
+</body>
+</html>
+
+
+
+<!-- for practise grid garden -->

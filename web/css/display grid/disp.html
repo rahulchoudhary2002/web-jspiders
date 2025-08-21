@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+ .container{
+            height: 500px;
+            width: 500px;
+            border: 2px solid black;
+            display: grid;
+            /* grid-template-columns: 100px 200px 100px;
+            grid-template-rows: 100px 200px 100px; */
+            /* grid-template-columns: auto auto auto auto;
+            grid-template-rows: auto auto auto; */
+            grid-template-columns: repeat(4, auto);
+            grid-template-rows: repeat(3,auto);
+            gap: 20px;
+           
+        }
+        .box{
+            background-color: green;
+            grid-row-start: 1;
+            grid-row-end: 4;
+            grid-column-start: 1;
+            grid-column-end: 2;
+
+        }
+        /* grs/gcs/gre/gce */
+        .box2{
+            background-color: rgb(0, 185, 71);
+            grid-row-start: 1;
+            grid-row-end: 2;
+            grid-column-start: 2;
+            grid-column-end: 4;
+        }
+        .box3{
+            background-color:red;
+            grid-row-start: 1;
+            grid-row-end: 2;
+           grid-column-start: 4;
+           grid-column-end: 5;
+        }
+        .box4{
+            background-color: green;
+            grid-row-start: 2;
+            grid-row-end: 4;
+            grid-column-start: 4;
+            grid-column-end: 5;
+        }
+        .box5{
+              background-color:red;
+            grid-row-start: 2;
+            grid-row-end: 3;
+            grid-column-start: 3;
+            grid-column-end: 4;
+        }
+         .box6{
+              background-color:rgb(255, 217, 0);
+            grid-row-start: 4;
+            grid-row-end: 3;
+            grid-column-start: 3;
+            grid-column-end: 4;
+        }
+          .box7{
+              background-color:rgb(255, 217, 0);
+            grid-row-start: 2;
+            grid-row-end: 3;
+            grid-column-start: 2;
+            grid-column-end: 3;
+        }
+          .box8{
+              background-color:red;
+            grid-row-start: 3;
+            grid-row-end: 4;
+            grid-column-start: 2;
+            grid-column-end: 3;
+        }
+
+
+
+
+</style>
+
+
+</head>
+<body>
+      <div class="container">
+      <div class="box">
+
+      </div>
+      <div class="box2"></div>
+      <div class="box3"></div>
+      <div class="box4"></div>
+       <div class="box5"></div>
+       <div class="box6"></div>
+         <div class="box7"></div>
+       <div class="box8"></div>
+      
+    </div>
+</body>
+</html>
