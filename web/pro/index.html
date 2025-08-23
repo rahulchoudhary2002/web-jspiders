@@ -1,0 +1,113 @@
+<!-- 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+   font-family: "Noto Sans", sans-serif;
+}
+/* ! header css starts here */
+.header{
+    height: 85px;
+    width: 81vw;
+    margin: 0px auto;
+    /* background-color: #a0a0a0; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header .logo{
+    height: 48px;
+}
+.navlinks a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    margin: 0px 16px;
+}
+.navlinks a:hover{
+    color: #808080;
+}
+
+/* ! hero section css starts here */
+.heroSection{
+    height: 70vh;
+    background-color: #a0a0a0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-image: url('./assets/66e1052cdca1e68cc52d070e8c9631aa_1736774712641.png');
+}
+.heroSection .title{
+    font-size: 48px;
+    color: 
+#333333;
+    font-weight: 700;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+.form input{
+    height: 70px;
+    width: 600px;
+    font-size: 18px;
+    color: #333;
+    padding: 0px 30px;
+    border-radius: 6px;
+    border: none;
+    border: 0.5px solid #a0a0a0;
+  
+}
+.form input:focus{
+    border: 1px solid rgb(34, 34, 34);
+    outline: 0.5px #444444;
+}
+.form button{
+    height: 80px;
+    margin-top: 27px;
+    font-size: 30px;
+    font-weight: 700;
+    background-color: #FFCA20;
+    border-radius: 10px;
+    border: none;
+} -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bharat Moves On Rapido!</title>
+    <link rel="stylesheet" href="./rapido.css">
+    <link rel="shortcut icon" href="./assets/Rapido-logo.png" type="image/x-icon">
+</head>
+<body>
+    <header class="header">
+         <img src="./assets/NewLogo.svg" class="logo" alt="">
+         <nav class="navlinks">
+            <a href="#">About Us
+</a>
+<a href="#">Rapido Ads
+</a>
+<a href="#">Safety
+</a>
+<a href="#">Blog
+</a>
+<a href="#">Contact Us</a>
+         </nav>
+    </header>
+    <section class="heroSection">
+         <h1 class="title">Bharat Moves On Rapido!</h1>
+         <form class="form">
+            <input type="text" placeholder="Enter Pickup Location">
+            <input type="text" placeholder="Enter Drop Location">
+            <button>Book Ride</button>
+         </form>
+    </section>
+</body>
+</html>
