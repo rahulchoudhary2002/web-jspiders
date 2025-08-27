@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Nike X OFF-White</title>
+
+  <style>
+
+    * {
+
+      margin: 0;
+
+      padding: 0;
+
+      box-sizing: border-box;
+
+      font-family: Arial, sans-serif;
+
+    }
+
+    body {
+
+      display: flex;
+
+      justify-content: center;
+
+      align-items: center;
+
+      min-height: 100vh;
+
+      background: #827e7e;
+
+    }
+
+    .container {
+
+      display: flex;
+
+      gap: 20px;
+
+    }
+
+    .card {
+
+      background: #fff;
+
+      border-radius: 15px;
+
+      padding: 20px;
+
+      width: 250px;
+
+      text-align: center;
+
+      box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+
+      transition: 0.3s ease;
+
+    }
+
+     .card:hover {
+
+      transform: translateY(-5px);
+
+      box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+
+    } 
+
+    .card img {
+
+      width: 100%;
+
+      height: auto;
+
+      margin-bottom: 15px;
+
+    }
+
+    .card.red {
+
+      background: #d32f2f;
+
+      color: #fff;
+
+    }
+
+    .card.blue {
+
+      background: #0288d1;
+
+      color: #fff;
+
+    }
+
+    .card h3 {
+
+      font-size: 18px;
+
+      margin-bottom: 10px;
+
+    }
+
+    .card p {
+
+      font-size: 14px;
+
+      margin-bottom: 15px;
+
+    }
+
+    .price {
+
+      font-size: 20px;
+
+      font-weight: bold;
+
+      margin-bottom: 15px;
+
+    }
+
+    .btn {
+
+      display: inline-block;
+
+      padding: 10px 20px;
+
+      border-radius: 8px;
+
+      background: #000;
+
+      color: #fff;
+
+      text-decoration: none;
+
+      font-weight: bold;
+
+      transition: background 0.3s;
+
+    }
+
+    .btn:hover {
+
+      background: #333;
+
+    }
+
+    .favorite {
+
+      display: inline-block;
+
+      margin-left: 10px;
+
+      font-size: 20px;
+
+      cursor: pointer;
+
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <div class="container">
+
+    
+
+    <!-- First Card -->
+
+    <div class="card red">
+
+      <img src="./shoe1-removebg-preview.png" alt="Nike Red Shoe">
+
+      <h3>Nike X OFF-white</h3>
+
+      <p>The 10: Air Jordan 1 Off-White - Chicago</p>
+
+      <div class="price">$999</div>
+
+      <a href="#" class="btn">Buy Now</a>
+
+      <span class="favorite">⭐</span>
+
+    </div>
+
+    
+
+    <!-- Second Card -->
+
+    <div class="card blue">
+
+      <img src="./shoe2-removebg-preview.png" alt="Nike Blue Shoe">
+
+      <h3>Nike X OFF-white</h3>
+
+      <p>Air Jordan 1 Retro High "Off-White - UNC"</p>
+
+      <div class="price">$1599</div>
+
+      <a href="#" class="btn">Buy Now</a>
+
+      <span class="favorite">⭐</span>
+
+    </div>
+
+  </div>
+
+</body>
+
+</html>

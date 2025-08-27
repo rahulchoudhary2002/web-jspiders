@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Profile Card</title>
+
+  <style>
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+
+    body {
+
+      font-family: Arial, sans-serif;
+
+      background: #f5f6fa;
+
+      display: flex;
+
+      justify-content: center;
+
+      align-items: center;
+
+      height: 150vh;
+
+
+
+    }
+
+    .card {
+
+        height: 500px;
+
+      background: #fff;
+
+      width: 320px;
+
+      border-radius: 20px;
+
+      box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+
+      text-align: center;
+
+      padding: 25px 20px;
+
+      position: relative;
+
+    }
+
+    .profile-img {
+
+      width: 120px;
+
+      height: 120px;
+
+      border-radius: 50%;
+
+      object-fit: cover;
+
+      margin-bottom: 15px;
+
+    }
+
+    .name {
+
+      font-size: 20px;
+
+      font-weight: bold;
+
+      margin-bottom: 5px;
+
+    }
+
+    .username {
+
+      font-size: 14px;
+
+      color: #888;
+
+      margin-bottom: 5px;
+
+    }
+
+    .job {
+
+      font-size: 14px;
+
+      color: #666;
+
+      margin-bottom: 20px;
+
+    }
+
+    .stats {
+
+      display: flex;
+
+      justify-content: space-around;
+
+       margin-top: 50px;
+
+      margin-bottom: 40px;
+
+
+    }
+
+    .stats div {
+
+      text-align: center;
+      
+
+    }
+
+    .stats h3 {
+
+      margin: 0;
+
+      font-size: 18px;
+
+      font-weight: bold;
+
+    }
+    
+    .stats p {
+
+      margin: 0;
+
+      font-size: 12px;
+
+      color: #777;
+
+    }
+
+    .btn {
+
+      display: inline-block;
+
+      background: #00b894;
+
+      color: #fff;
+
+      padding: 12px 25px;
+
+      border-radius: 25px;
+
+      text-decoration: none;
+
+      font-size: 14px;
+
+      font-weight: bold;
+
+      transition: background 0.3s;
+
+    }
+
+    .btn:hover {
+
+      background: #019875;
+
+    }
+
+    .plus-btn {
+
+      position: absolute;
+
+      right: 1px;
+
+      top: 200px;
+
+      background: #ff4d6d;
+
+      color: #fff;
+
+      width: 40px;
+
+      height: 40px;
+
+      border-radius: 50%;
+
+      font-size: 24px;
+
+      border: none;
+
+      cursor: pointer;
+
+      box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+
+    }
+    .more{
+     
+        margin-top: 20px;
+
+      font-size: 12px;
+
+      color: #777; margin: 0;
+
+      font-size: 12px;
+
+      color: #777;
+      margin-top: 20px;
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <div class="card">
+
+    <button class="plus-btn">+</button>
+
+    <img src="./3135715.png" alt="Profile" class="profile-img">
+
+    <div class="name">Rahulchoudhary</div>
+
+    <div class="username">@rahul</div>
+
+    <div class="job">Software Engineer</div>
+
+    <div class="stats">
+
+      <div>
+
+        <h3>17</h3>
+
+        <p>SHOTS</p>
+
+      </div>
+
+      <div>
+
+        <h3>143</h3>
+
+        <p>FOLLOWING</p>
+
+      </div>
+
+      <div>
+
+        <h3>57</h3>
+
+        <p>FOLLOWERS</p>
+
+      </div>
+
+    </div>
+
+    <a href="#" class="btn">Send message</a>
+    
+      <div class="more" ><p>More</p></div>
+
+  </div>
+
+</body>
+
+</html>
