@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .card{
+            height: 450px;
+            width: 300px;
+            border: solid;
+            margin: 50px auto;
+            border-radius: 60px;
+            overflow: hidden;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #fff;
+            transition: 0.4s ease all;
+        }
+        .cover{
+            height: 180px;
+            width: 100%;
+            border-radius: 50px;
+            background-image:linear-gradient(#EB2139 , #9D2821) ;
+        }
+        .profile{
+            height: 120px;
+            width: 120px;
+            border-radius: 50%;
+            background-position: center;
+             background-size: cover;
+            background-image: url('https://www.orfonline.org/public/uploads/posts/image/modi-black-mr1.jpg');
+            position: absolute;
+            top: 100px;
+            left:90px ;
+            border: 5px solid white;
+        }
+        .icons{
+            height: 10%;
+            width: 100%;
+            background-color: aliceblue;
+        }
+        .name{
+            margin-top: 20px;
+        }
+        .desc{
+            text-align: center;
+            padding: 0px 20px;
+        }
+        body{
+            background-color: #a0a0a0;
+        }
+        .card:hover{
+            box-shadow: 10px 10px 10px 0px #e0e0e0;
+        }
+    </style>
+</head>
+<body>
+    <section class="card">
+        <div class="cover">
+
+        </div>
+        <div class="profile">
+
+        </div>
+        <h2 class="name">Narendra Modi Ji</h2>
+        <p>Prime Minister</p>
+        <p class="desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa illo excepturi et sequi dolores voluptatem veritatis rem ab tempora nemo.</p>
+        <div class="icons">
+<i class="fa-brands fa-facebook-f"></i>
+<i class="fa-brands fa-facebook-f"></i>
+<i class="fa-brands fa-facebook-f"></i>
+        </div>
+    </section>
+</body>
+</html>
