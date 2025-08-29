@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        main{
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .container{
+            height: 400px;
+            width: 500px;
+            border: solid;
+            background-color: bisque;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            position: relative;
+        }
+        .side{
+            height: 80%;
+            width: 60px;
+            background-color: rgb(161, 91, 0);
+            border-radius: 50px;
+            transition: 2s ease all;
+        }
+        .side1{
+            transform: translateX(30px) rotate(30deg);
+        }
+        .side3{
+            transform:translateX(-30px) rotate(-30deg);
+        }
+        .side2{
+            position: absolute;
+            transform: translateY(50px) rotate(90deg);
+            height: 230px;
+        }
+        .container:hover .side{
+            transform: rotate(90deg);
+            background-color: blueviolet;
+        }
+        .container:hover .side1{
+            transform:translateY(-10px) translateX(115px) rotate(0deg);
+        }
+        .container:hover .side3{
+              transform:translateY(-10px) translateX(90px) rotate(0deg);
+        }
+        
+        .container:hover .side2{
+                 transform:translateY(-10px) translateX(100px) rotate(150deg);
+                 height: 330px;
+                 
+        }
+
+    </style>
+</head>
+<body>
+ <main>
+       <div class="container">
+        <div class="side side1"></div>
+        <div class="side side2"></div>
+        <div class="side side3"></div>
+    </div>
+ </main>
+</body>
+</html>

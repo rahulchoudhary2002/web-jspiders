@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    height: 76px;
+        margin: 0 80px 0 80px;
+        display: flex;
+        font-family: Flame-Regular;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: normal;
+        color: rgb(0, 0, 0);
+   
+}
+.n1{
+    display: flex;
+}
+
+
+
+
+input{
+        border-radius: 20px;
+        height: 42px;
+        width: 307px;
+        margin: 20px 50px 10px 20px ;
+        background-color: #FBFAF8;
+      
+    }
+    .n1 img{
+        height: 72px;
+        display: flex;
+        display: flex;
+    }
+    .delivery{
+        margin: 20px;
+        font-family: Flame-Regular;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: normal;
+        color: rgb(238, 119, 0);
+    }
+    .dine{
+            font-family: Flame-Regular;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: normal;
+            color: rgb(0, 0, 0 );
+            margin-top: 20px;
+            
+    }
+    
+    .name{
+       justify-content: space-between;
+       margin: 30px;
+     
+    }
+   
+    
+    
+
+    .container{
+        display: flex;
+        overflow-x: auto;
+       }
+    
+    .menu{
+        flex:0 0 140px;
+        margin-right: 20px;
+        text-align: center;
+        margin-top:10PX;
+    }
+
+
+    
+    
+
+.home{
+    height: 310px;
+    background-color: #F6EFE7;
+    display: flex;
+    
+}
+
+.menu img{
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.card{
+ margin: 70px;
+}
+.menu-section{
+    background-color:#F8F5F0 ;
+
+}
+.our{
+  
+   
+    
+}
+
+
+
+
+
+
+.btn{
+    display: inline-block;
+    padding: 20px 60px 20px 60px;
+    background-color: #EE7700;
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    transition-behavior: 0.3s;
+    border-radius: 25px;
+    font-size: 20px;
+    margin: 20px;
+}
+.explore{
+    
+}
+.recommend img{
+    height: 300px;
+}

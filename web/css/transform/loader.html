@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            height: 100px;
+            width: 500px;
+            border: 2px solid black;
+            margin: 300px auto;
+            border-radius: 50px;
+            overflow: hidden;
+
+        }
+        .bar{
+            width: 10%;
+            height: 100%;
+            background-color: red;
+            transition: 4s linear all;
+        }
+        .container:hover .bar{
+            width: 100%;
+            background-color: green;
+
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="bar"></div>
+    </div>
+</body>
+</html>
