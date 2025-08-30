@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            display: flex;
+            height: 400px;
+            width: 600px;
+            border: 2px solid black;
+            margin:200px auto;
+            overflow: hidden;
+        }
+        .ball{
+            height: 60px;
+            width: 60px;
+            border-radius: 50%;
+            background-color: burlywood;
+
+    animation-name: bounce;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+        }
+        @keyframes bounce {
+            0%{
+                transform: translate(-150px , -150px);
+            }
+            25%{
+                transform: translate(100px , 338px);
+            }
+            50%{
+                transform: translate(250px , 0px);
+
+            }
+            75%{
+                transform: translate(500px , 338px);
+
+            }
+            100%{
+                transform: translate(700px , -100px);
+            }
+        }
+        .ball2{
+            animation-delay: 2s;
+                transform: translate(-150px , -150px);
+
+        }
+        .ball3{
+            animation-delay: 3s;
+                transform: translate(-150px , -150px);
+        }
+        .ball4{
+            animation-delay: 3.5s;
+                transform: translate(-150px , -150px);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="ball">
+
+        </div>
+        <div class="ball ball2">
+
+        </div>
+        <div class="ball ball3">
+
+        </div>
+        <div class="ball ball4">
+
+        </div>
+    </div>
+    
+</body>
+</html>
