@@ -1,0 +1,54 @@
+JavaScipt=>It is high level scrpting language. It is used to create dynamic & interactive webpage.
+
+chacterstics:-
+==============
+1. 
+
+
+
+synocns= i the code will be executed in whetar order we have written(line - by - line).
+
+inerprter= we don't need any compiler and directly run without the class file .file etc
+
+
+===============================================================================================================
+4-09-25
+========
+Tokens= smallest unit of the program.
+
+int a=10;
+int=keyword
+a is intentifer
+=operaetor
+10 is literals
+literals=it is fixed directly embedded in source code, reprensting specific data types like numbers, characters, or strings.
+
+
+var=in this we can redeclare is posible. 
+
+let = in this we can not redeclare is posible.
+
+const->
+const c;//only dec without init is not posible.
+
+const c1 = 3.14;// dec + init (only posible in const)
+//const c1=4; //redec is not posible.
+
+
+
+==============================================================================================
+        declartions     initilization   reint.      dec+reinti  redeclartion
+
+let     yes                 yes         yes             yes         yes
+
+var     yes                 yes         yes             yes         not
+
+const  not                  no          no              yes         no
+=============================================================================================             
+
+<<==Js code execution==>>
+=>js code execution in 2 ways->
+
+1. Memory Allocation Phase:-(all declartions->variables, Function)
+
+2. Code Execution Phase:-(loop, Function call, printing start, initilization)
