@@ -25,6 +25,7 @@
 
 // ! immutability
 // let str = 'java';
+// console.log(str);
 // str[0] = 'k'
 // console.log(str[0]);
 // str = 'script'
@@ -34,7 +35,7 @@
 // // ! concatination
 // let fName = 'Rohit'
 // let lName = 'Sharma'
-// console.log(fName+' '+lName);
+// console.log(fName+' vv '+lName);
 
 
 
@@ -53,6 +54,7 @@
 // let str = 'VIRAT'
 // let lstring = str.toLowerCase();
 // console.log(lstring);
+
 // console.log(str);
 // ! 2. toUppperCase()
 // it will convert all the characters of the string to lowercase
@@ -68,7 +70,9 @@
 // console.log(str.length);
 // let ts = str.trimStart()
 // console.log(ts.length);
-// !4. trimEnd();
+// console.log(ts);
+
+// // !4. trimEnd();
 // it will remove the unnecessary spaces from the beginning of the string
 // let str = 'java                          '
 // console.log(str.length);
@@ -80,6 +84,7 @@
 // console.log(str.length);
 // let t= str.trim()
 // console.log(t.length);
+// console.log(t);
 
 // !6. indexOf('char')
 // it will return the index of first occurrence of the character
@@ -103,7 +108,7 @@
 
 
 
-// let str = 'javascript'
+let str = 'javascript'
 // !9. substring(s.i , e.i)
 // it will return a specific part of the string based oon the si and ei , substring does not accept negative index
 // e.i is always excluded

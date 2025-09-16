@@ -1,0 +1,10 @@
+<<<===Arrays====>>>
+
+array is the sequential collection of homogenus or hetrogenus elements.
+-->In js array has dynamic length.
+1. literals
+    ler arr=[] 
+    console.log(arr);
+2.by using new Array[]  
+    let arr2=new array[];
+    console.log
