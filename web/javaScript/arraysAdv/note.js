@@ -32,6 +32,8 @@
 
 // let arr4 = new Array(5 , 10)
 // console.log(arr4.length);
+// console.log(arr4);
+
 
 
 // ! properties and methods
@@ -67,6 +69,7 @@
 // console.log(arr);
 
 // !10 splice(s.i , deleteCount , newEl1 , newEl2 ..... newEln)
+
 // splice is used to add or remove the elements at a specific index of the array
 // it will accept the first argument as the s.i
 // 2nd arg is deleteCOunt -> the number of element we want to delete
@@ -121,9 +124,11 @@
 // ! 1. reverse the words of the string without using a loop
 // ! 'this is java' -> 'java is this'
 // let str = 'this is java';
-// let words = str.split(' ')
+// let words = str.split('')
 // words.reverse()
 // console.log(words);
+// console.log(words.join(''));
+
 
 // ! 2. reverse the letters of the string without using a loop
 //  'this is java' -> 'avaj si siht'
@@ -157,7 +162,7 @@
 // let nums = [ 9 , 2 , 10 , 100 , 200]
 // nums.sort()
 // console.log(nums);
-// ! compare fn 
+// // ! compare fn 
 // nums.sort((a , b)=>{
 //     return a-b ; // ascending
 // })
@@ -165,6 +170,7 @@
 //     return b-a ; // descending
 // })
 // console.log(nums);
+
 // !Ques-> take input from the user as two words and check if they are anagram or not (without loop)
 // ! elbow -> below
 // ! eat -> tea
@@ -175,8 +181,10 @@
 //     if(s1.length != s2.length){
 //         return false
 //     }
+
 //   let op1 =  s1.split('').sort().join('');
 //   let op2 = s2.split('').sort().join('');
+  
 //  if(op1 == op2){
 //     return true
 //  }else{
@@ -207,7 +215,7 @@
 // forEach does not return anything as output , it will work like a loop
 // let arr = [10 , 20 , 30 , 40]
 // let res = arr.forEach((el , i)=>{
-//     console.log(el , i);
+//     console.log(el , i,);
 // })
 // console.log(res);
 
@@ -216,8 +224,8 @@
 // it will return a boolean value (true/false)
 // it will check if any element of the array satisfies the condition we have returned from the callback function 
 // if any element of the array satisfies the condition it will return true , otherwise false
-// let arr = [20 , 30 , 42 , 64]
-// let arr = [0  , '' , undefined , null]
+// let arr = [20 , 30 , 42 , 64,]
+// // let arr = [0  , '' , undefined , null]
 // let res  = arr.some((el , i )=>{
 //     console.log(i+1);
 //      return el;
@@ -229,10 +237,11 @@
 // it will return a boolean value (true/false)
 // it will check if all the element of the array satisfies the condition we have returned from the callback function 
 // if all element of the array satisfies the condition it will return true , otherwise false
-// let arr = [21 , 30 , 42 , 64]
+// let arr = [20 , 30 , 42 , 61]
 // let res  = arr.every((el , i )=>{
-//     console.log(i+1);
+//     console.log(i);
 //      return el%2 ==0;
+     
 // })
 // console.log(res);
 
@@ -277,9 +286,11 @@
 //      return el%2==0;
 // })
 // console.log(res); // [4, 6, 12]
-// let res  = arr.filter((el , i )=>{
+// let res1 = arr.filter((el , i )=>{
 //      return el*el;
 // })
+// console.log(res1);
+
 // let res  = arr.filter((el , i )=>{
 // })
 // console.log(res); // []
@@ -366,11 +377,11 @@
 // ! Ques 3 -> suppose there is an array of all the price of the items in the cart 
 //! we have to give 20% discount on each item , after that if any item has price>10000 ,than we have to give again discount of 10%
 // let price = [15000 , 8000 , 9000 , 2000]
-// let newArr = price.map((el , i)=>{
+// let newArr = price.map((el,i )=>{
 //     return el-el*0.2
 // })
 // console.log(newArr);
-// let arr2 = newArr.map((el)=>{
+// let arr2 = newArr.map((el,i)=>{
 //    return (el>10000) ? el-el*0.1 :el
 // })
 // console.log(arr2);
@@ -394,7 +405,7 @@
 // ! without passing initialValue
 // let arr = [10 , 20 , 30 , 40]
 // let sum = arr.reduce((acc , el , i , arr)=>{
-//   return acc+el
+//   return acc+el    
 // })
 // let prod = arr.reduce((acc , el , i , arr)=>{
 //   return acc*el
@@ -411,13 +422,13 @@
 // let temp = arr.reduce((acc , el , i)=>{
 //     console.log(acc , el);
 //     return acc+el
-// } , 500)
+// } ,500)
 // console.log(temp);
 
 
 
-// ! reduceRight()
-// !
+// // ! reduceRight()
+// // !
 // let arr = [10 , 20 , 30 , 40]
 // let op = arr.reduceRight((acc , el)=>{
 //     console.log(acc , el);
@@ -426,12 +437,12 @@
 // console.log(op);
 
 // ! Ques1 ->Reverse a string by using reduce
-// let str = 'Hey Hello Hii';
-// let words = str.split(' ');
-// console.log(words); // ['Hey', 'Hello', 'Hii']
-// let rev = words.reduce((acc , el , i)=>{ //Hii Hello Hey
-//    return el+' '+acc
-// })
+let str = 'Hey Hello Hii';
+let words = str.split(' ');
+console.log(words); // ['Hey', 'Hello', 'Hii']
+let rev = words.reduce((acc , el , i)=>{ //Hii Hello Hey
+   return el+' '+acc
+})
 // let rev1 = words.reduceRight((acc , el , i)=>{
 //    return acc+' '+el;
 // })
@@ -497,16 +508,16 @@
 
 
 //! Finding the Maximum Element Using reduce()
-// Given an array of numbers, use reduce() to find the maximum value in the array.
-const numbers = [10, 5, 8, 23, 17];
-let max = numbers.reduce((acc , el)=>{
-    return acc>el ?acc:el
-})
-console.log(max);
+// // Given an array of numbers, use reduce() to find the maximum value in the array.
+// const numbers = [10, 5, 8, 23, 17];
+// let max = numbers.reduce((acc , el)=>{
+//     return acc>el ?acc:el
+// })
+// console.log(max);
 
-//! 8. Mapping and Filtering for Even Length Strings
-// You have an array of strings. Use map() to get the length of each string, and then use filter() to keep only those lengths that are even.
+// //! 8. Mapping and Filtering for Even Length Strings
+// // You have an array of strings. Use map() to get the length of each string, and then use filter() to keep only those lengths that are even.
 
-const words = ["hello", "world", "JavaScript", "is", "awesome"];
-let evenLength = words.map((el)=>el.length).filter((el)=>el%2==0)
-console.log(evenLength);
+// const words = ["hello", "world", "JavaScript", "is", "awesome"];
+// let evenLength = words.map((el)=>el.length).filter((el)=>el%2==0)
+// console.log(evenLength);
